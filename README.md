@@ -20,7 +20,7 @@ Take for example a $\mathbb{Z}$-module $G$. This means that for some element $x$
 
 We shall denote by $\text{Ann}_M(I)$ the annihilator of right ideal $I$ of $R$ in module $M$ as $$\text{Ann}_M(I):= \left(race m\in M:am=0~\forall a\in I\rbrace$$. One can see that $\text{Ann}_M(I)$ is a submodule of $M$, because if $m_1, m_2\in\text{Ann}_M(I)$, then $m_1+\alpha m_2\in\text{Ann}_M(I)$ for all $\alpha\in R$.
 
-On the other hand, for a submodule $N$ of $M$, the \emph{annihilator} of $N$ in $R$ consists of those $r\in R$ for which $rn=0$ for all $n\in N$, denoted by $\text{Ann}_R(N)$. One can see that this is a two-sided ideal of $R$ as it absorbs any other element $r_1$ of $R$ this way: $r_1rn=r_10=0$, or $rr_1n=rn_1$ for some $n_1\in N$ and $rn_1=0$ for $r\in\text{Ann}_R(N)$.
+On the other hand, for a submodule $N$ of $M$, the *annihilator* of $N$ in $R$ consists of those $r\in R$ for which $rn=0$ for all $n\in N$, denoted by $\text{Ann}_R(N)$. One can see that this is a two-sided ideal of $R$ as it absorbs any other element $r_1$ of $R$ this way: $r_1rn=r_10=0$, or $rr_1n=rn_1$ for some $n_1\in N$ and $rn_1=0$ for $r\in\text{Ann}_R(N)$.
 
 ### Field
 If the ring is actually a field (i.e., commutative and without any zero divisors), then the module is essentially a vector space over the field. For commutaive rings a right module is also a left module. Now, if $V$ is a vector space over a field $F$, then $V$ is also a module over the polynomial ring $F[x]$. We can assign a linear operator $T:V\rightarrow V$ and with respect to that define for $p(x)=a_nx^n+a_{n-1}x^{n-1}+\dots+a_0\in F[x]$,
