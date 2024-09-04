@@ -1,1 +1,2 @@
-markdown: redcarpet
+kramdown:
+  math_engine: mathjax
